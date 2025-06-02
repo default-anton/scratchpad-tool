@@ -18,7 +18,7 @@ server.tool("scratchpad",
     title: z.string().describe("A brief description of what you are thinking about"),
     content: z.string().describe("Your thoughts and/or notes in Markdown")
   },
-  async () => ({})
+  async () => ({ content: [{ type: "text", text: "ok" }] })
 );
 
 const transport = new StdioServerTransport();
