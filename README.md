@@ -15,8 +15,6 @@ A Model Context Protocol server that provides a scratchpad tool for LLMs to orga
 
 ## Usage
 
-### Structured Thinking with Scratchpad
-
 Add the following section to your custom instructions:
 
 ```markdown
@@ -42,6 +40,16 @@ Add the following section to your custom instructions:
 
 ```
 claude mcp add scratchpad-tool -- npx -y scratchpad-tool
+```
+
+To disable Claude Code's thinking feature (recommended when using the scratchpad tool):
+
+```.claude/settings.json
+{
+  "env": {
+    "MAX_THINKING_TOKENS": "0"
+  }
+}
 ```
 
 ## License
