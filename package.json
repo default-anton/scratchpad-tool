@@ -1,6 +1,6 @@
 {
   "name": "scratchpad-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Think tool for LLMs",
   "type": "module",
   "main": "index.js",
