@@ -1,5 +1,7 @@
 # Scratchpad Tool MCP Server
 
+[![npm version](https://badge.fury.io/js/scratchpad-tool.svg)](https://www.npmjs.com/package/scratchpad-tool)
+
 A Model Context Protocol server that provides a scratchpad tool for LLMs to organize thoughts, take notes, and plan approaches to complex problems.
 
 ## API
