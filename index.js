@@ -12,7 +12,8 @@ const server = new McpServer({
 server.tool("scratchpad",
   "Use the scratchpad to write notes, organize your thoughts, " +
   "and plan steps to help you think through the user's requests, " +
-  "especially for complex problems. Use markdown to format your notes.",
+  "especially for complex problems. Use this tool as often as needed " +
+  "throughout your work. Use markdown to format your notes.",
   {
     title: z.string().describe("A brief description of what you are thinking about"),
     content: z.string().describe("Your thoughts and/or notes in Markdown")

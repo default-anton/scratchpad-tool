@@ -7,7 +7,7 @@ A Model Context Protocol server that provides a scratchpad tool for LLMs to orga
 ### Tools
 
 - **scratchpad**
-  - Use the scratchpad to write notes, organize your thoughts, and plan steps to help you think through the user's requests, especially for complex problems
+  - Use the scratchpad to write notes, organize your thoughts, and plan steps to help you think through the user's requests, especially for complex problems. Use this tool as often as needed throughout your work
   - Inputs:
     - `title` (string): A brief description of what you are thinking about
     - `content` (string): Your thoughts and/or notes in Markdown format
@@ -20,8 +20,7 @@ A Model Context Protocol server that provides a scratchpad tool for LLMs to orga
 Add the following section to your custom instructions:
 
 ```markdown
-# Structured Thinking with Scratchpad
-Use the `scratchpad` tool to write notes, organize your thoughts, and plan steps to help you think through the user's requests, especially for complex problems.
+- Structured Thinking with Scratchpad: Use the `scratchpad` tool to write notes, organize your thoughts, and plan steps to help you think through the user's requests, especially for complex problems. Use this tool as often as needed throughout your work.
 ```
 
 ### With Claude Desktop
