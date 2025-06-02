@@ -1,0 +1,22 @@
+{
+  "name": "scratchpad-tool",
+  "version": "1.0.0",
+  "description": "Think tool for LLMs",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://github.com/default-anton/scratchpad-tool",
+  "bugs": "https://github.com/default-anton/scratchpad-tool/issues",
+  "bin": {
+    "scratchpad-tool": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Anton Kuzmenko",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.46"
+  }
+}
